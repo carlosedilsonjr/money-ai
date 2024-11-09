@@ -8,7 +8,7 @@
 					"level": "error",
 					"options": {
 						"attributes": ["className"],
-						"functions": ["clsx"]
+						"functions": ["clsx", "cn", "cva"]
 					}
 				}
 			}
