@@ -1,0 +1,17 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"linter": {
+		"rules": {
+			"nursery": {
+				"useSortedClasses": {
+					"fix": "safe",
+					"level": "error",
+					"options": {
+						"attributes": ["className"],
+						"functions": ["clsx"]
+					}
+				}
+			}
+		}
+	}
+}
